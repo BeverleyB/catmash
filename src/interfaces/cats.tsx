@@ -1,5 +1,5 @@
-export default interface Cats {
+export default interface Cat {
 	url: string,
 	id: string,
-    vote?: number
+    vote: number
 }
