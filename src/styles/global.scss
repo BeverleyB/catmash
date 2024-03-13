@@ -1,0 +1,52 @@
+// color
+$blue: #2a396a;
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+	width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue';
+
+    .container-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    
+        .logo {
+            width: 150px;
+            height: 150px;
+            background: url("../assets/logo.svg") no-repeat;
+        }
+    }
+
+    .btn {
+        background-color: white;
+        padding: 10px 50px;
+        font-size: 22px;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 20px;
+        cursor: pointer;
+        color: $blue;
+        border: 2px solid $blue;
+        font-family: 'Bebas Neue';
+        letter-spacing: 2px;
+        line-height: 25px;
+
+        &:hover {
+            border: 3px solid #2a396a;
+			transition: all 0.2s ease;
+			transform: scale(1.098);
+			box-shadow: 1px 1px 15px #2a396a;
+        }
+
+        .vote-result {
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+    }
+}
