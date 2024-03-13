@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.b87c80cd.css","mappings":"AAAA,MACI","sources":["pages/Vote/vote.scss"],"sourcesContent":["#vote {\n    display: flex;\n}"],"names":[],"sourceRoot":""}
